@@ -26,28 +26,47 @@ nav ul li a:hover{
 .icon{
     width: 62px;
     margin-right: 400px;
-    
 }
 
-/*start first section*/
+.active:hover{
+    font-size: 30px;
+}
 
-/*.image{
-    width: 536.04px;
-   /* margin: 130px 139px 0 691px;
-   margin-top: 130px;
-   margin-left: 140px;
-    display: inline-block;
-}*/
+
+/*start first section*/
 .helo-div{
     width: 280px;
     height: 240px;
-    display: inline-block;
-    margin: 178px 140px 0 136px;
+   display: inline-block;
     padding: 20px;
-
+    margin-left: 136px;
+    margin-right: 100px;
+  
 }   
 .helo-div h1 {
     font-size: 30px;
     margin-bottom: 20px;
 }
-  
+.image1{
+    width: 535px;
+    display: inline-block;
+    margin-top: 130px;
+}
+
+
+/* start second section*/
+.section2{
+    width: 1080px;
+    height: 1080px;
+    width: 100%;
+}
+.childsection2{
+    width: 1020px;
+    width: 100%;
+    height: 320px;
+}
+.childsection2 img {
+    width: 430px;
+    margin-top: 50px;
+    margin-left: 157px;
+}
