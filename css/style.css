@@ -1,4 +1,12 @@
+
 /*Base classes*/
+body{
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    
+}
 .container {
 	max-width:1112px;
     width: 100%;
@@ -8,36 +16,36 @@
     align-items: center;
     margin-top: 38px;
     margin-left: 115px;
-    position: absolute;
+    position: relative;
 }
+
 .menu{
     display: flex;
 }
 .container li {
-    padding: 49px;
+    padding: 55px;
 }
 .container ul li a {
     color: black;
     font-size: 15px;
+    transition: .5s;
 }
 nav ul li a:hover{
     color: orangered;
-    transition: .5s;
+    font-size: 22px;
+   
 }
 .icon{
     width: 62px;
-    margin-right: 300px;
+    margin-right: 400px;
     border-radius: 2ex;
+    margin-left: 45px;
+    transition:.5s;
 }
 .icon:hover{
-    transition: .5s;
-    width: 100px;
-   
+    width: 90px;
+    
 }
-.active:hover{
-    font-size: 30px;
-}
-
 
 /*start first section*/
 .helo-div{
@@ -49,7 +57,7 @@ nav ul li a:hover{
     margin-right: 350px;
     position: absolute;
     top: 178px;
-    
+       
 }  
 .helo-div h1 {
     font-size: 30px;
@@ -58,19 +66,46 @@ nav ul li a:hover{
 .helo-div p {
     font-size: 20px;
 }
+.btn{
+    border: 1px solid #3F3D56 ;
+    background: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-top: 38px;
+    border-radius: 2ex;
+    background-color:#3F3D56;
+    color:#fff;
+
+}
 .image1{
-    width: 980px;
+    width: 920px;
     display: inline-block;
-    margin-left: 300px;
-    margin-top: -200px;
+    margin-top: -400px;
+    margin-left: 600px;
+}
+.flower1 {
+    width: 90px;
+    margin-left: -37px;
+    position: absolute;
+    margin-top: 300px;
     
 }
+.flower2 {
+    width: 200px;
+    margin-left: -120px;
+    position: absolute;
+    margin-top: 390px;
+    
+}
+
 
 /* start second section*/
 .section2{
     width: 1080px;
     height: 1080px;
     width: 100%;
+    margin-left: 134px;
+    margin-top: 100px;
 }
 .childsection1{
     width: 1020px;
@@ -82,15 +117,13 @@ nav ul li a:hover{
 }
 .childsection1 img {
     width: 430px;
-    margin-top: 50px;
-    margin-left: 157px;
-    margin-right: 185px;
-
+    margin-right: 180px;
+   
 }
 .section2 h1 {
     font-size: 30px;
-    text-align: center;
-    margin-top: 130px;
+    margin-left: 500px;
+    margin-bottom: 57px;
     
 }
 .p, .p2{
@@ -143,3 +176,28 @@ nav ul li a:hover{
     font-size: 18px;
    
 }
+/*start third section*/
+.section3{
+    width: 1007px;
+    height: 1374px;
+    margin-top: 130px;
+    margin-left: 180px;
+}
+.section3 img {
+    width: 475px;
+    height: 531px;
+    padding: 60px;
+    
+}
+.section3 h1 {
+    font-size: 30px;
+    text-align: center;
+}
+
+
+
+
+
+
+
+/*start footer*/
