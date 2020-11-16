@@ -1,1 +1,9 @@
-/*start first section*/
+
+@keyframes img-strategy {
+    from {left: 0px;}
+    to {left: 100px;}
+}
+@keyframes p-strategy {
+    from {right: 0px;}
+    to {right: 100px;}
+}
