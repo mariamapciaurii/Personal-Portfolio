@@ -39,7 +39,7 @@ nav ul li a:hover{
     width: 62px;
     margin-right: 400px;
     border-radius: 2ex;
-    margin-left: 45px;
+    margin-left: 30px;
     transition:.5s;
 }
 .icon:hover{
@@ -99,7 +99,52 @@ nav ul li a:hover{
 }
 
 
-/* start about.html first section*/
+/* start about.html first section circle*/
+
+.circle{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+     background-color:#3F3D56;
+    position: relative;
+    margin: 5% ;
+    animation: do 20s infinite;
+    animation-timing-function: linear;
+    
+}
+.content{
+    position: absolute;
+    width: inherit;
+    height: auto;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+    font-size :28px;
+    color: #fff;
+}
+.circle2{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+     background-color:#F26324;
+    position: relative;
+    margin: 5% ;
+    animation: front 20s infinite;
+    animation-timing-function: linear;
+    
+}
+.content2{
+    position: absolute;
+    width: inherit;
+    height: auto;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+    font-size :28px;
+    color: #fff;
+}
+
+/*start main section*/
 .main-about{
     width: 1080px;
     height: 1080px;
@@ -112,31 +157,34 @@ nav ul li a:hover{
     width: 1020px;
     width: 100%;
     height: 320px;
+    margin-top: 50px ;
+    align-items: center;
     display: flex;
     justify-content: flex-start;
-    align-items: center;
+    
 }
 .img-strategy{
     width: 430px;
-    margin-top: 30px;
-    animation: girl;
-    position: relative;
-    animation: img-strategy 5s infinite;
-    animation-timing-function: linear; 
+    margin-right: 180px;
+    margin-left: 23px;
+}  
+.p, .information{
+    width: 430px;
+    height: 92px;
+    font-size: 18px;
+    
 }
-.p{
-    width:430px;
-    height: 320px;
-    margin-top: 80px;
-    margin-left: 200px;
-    position: relative;
-    animation: p-strategy 5s infinite;
-    animation-timing-function: linear; 
+.pp{
     font-size: 20px;
+    margin-bottom: 23px;
 }
-.p p {
-    padding: 65px;
+.aboutflower1{
+    width: 200px;
+    margin-left: -240px;
+    position: absolute;
+    margin-top: 650px;
 }
+    
 /* start about.html second section*/
 .child-about2{
     width: 1030px;
@@ -145,4 +193,77 @@ nav ul li a:hover{
     display: flex;
     justify-content: flex-start;
     align-items: center;
+    margin-top: 90px;
+}
+.development{
+    width: 500px;
+    height: 150px;
+    margin-right: 133px;
+   
+}
+
+/* start about.html third section*/
+.child-about3{
+    width: 1079px;
+    width: 100%;
+    height: 229px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 90px;
+}
+.child-about3 img {
+    font-size: 443px;
+    margin-right: 188px;
+}
+/*start another section*/
+.work{
+    width: 10007px;
+    width: 100%;
+    height: 1374px;
+    margin-top: 230px;
+    text-align: center;
+}
+.work img {
+    width: 475px;
+    padding: 30px;
+}
+.work h1 {
+    font-size: 30px;
+}
+/*start newprojectsection*/
+.newproject{
+    width: 1200px;
+    width: 100%;
+    height: 800px;
+    margin-left: 170px;
+}
+.newp{
+    width: 319px;
+    height: 90px;
+    font-size: 34px;
+}
+.newproject button {
+    border: 1px solid #3F3D56 ;
+    background: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-top: 36px;
+    border-radius: 3ex;
+    background-color:#3F3D56;
+    color:#fff;
+
+}
+.projectimage{
+    width: 870px;
+     margin-top: -600px;
+    margin-left: 600px;
+   
+}
+.flowerp{
+    width: 90px;
+    margin-left: -210px;
+    position: absolute;
+    margin-top: 250px;
+    
 }
