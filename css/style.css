@@ -37,7 +37,7 @@ nav ul li a:hover{
 }
 .icon{
     width: 62px;
-    margin-right: 520px;
+    margin-right: 500px;
     border-radius: 2ex;
     margin-left: 30px;
     transition:.5s;
@@ -57,8 +57,7 @@ nav ul li a:hover{
     margin-right: 350px;
     position: absolute;
     top: 178px;
-       
-}  
+}   
 .helo-div h1 {
     font-size: 30px;
     margin-bottom: 20px;
@@ -104,11 +103,7 @@ nav ul li a:hover{
     
 }
 
-/* start about.html first section circle*/
-
-
-
-/*start main section*/
+/*start  about html main section*/
 .main-about{
     width: 1080px;
     height: 1080px;
@@ -131,6 +126,10 @@ nav ul li a:hover{
     width: 430px;
     margin-right: 180px;
     margin-left: 23px;
+    position: relative;
+    animation-name: strategy;
+    animation-duration: 7s;  
+   animation-fill-mode: forwards;
 }  
 .p, .information{
     width: 430px;
@@ -139,18 +138,25 @@ nav ul li a:hover{
     font-family: 'Roboto', sans-serif;
     
 }
+.p{
+    position: relative;
+    animation-name: firstp;
+    animation-duration: 7s;  
+   animation-fill-mode: forwards;
+}  
+
 .pp{
-    font-size: 20px;
+    font-size: 25px;
     margin-bottom: 23px;
     font-family: 'Architects Daughter', cursive;
-
+    
 }
 
 .aboutflower1{
     width: 200px;
     margin-left: -240px;
     position: absolute;
-    margin-top: 650px;
+    margin-top: 250px;
 }
     
 /* start about.html second section*/
@@ -199,6 +205,24 @@ nav ul li a:hover{
 .work h1 {
     font-size: 30px;
     font-family: 'Architects Daughter', cursive;
+    margin-bottom: 20px;
+    transition: .5s;
+}
+
+.btn3{
+    border: 1px solid #3F3D56 ;
+    background: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 3ex;
+    background-color:#3F3D56;
+    color:#fff;
+    font-family: 'Architects Daughter', cursive;
+    font-size: 20px;
+   position: absolute;
+   margin-left: 600px;
+   margin-top: -250px;
+
 }
 /*start newprojectsection*/
 .newproject{
@@ -224,6 +248,7 @@ nav ul li a:hover{
     background-color:#3F3D56;
     color:#fff;
     font-family: 'Architects Daughter', cursive;
+   font-size: 20px;
 
 }
 .projectimage{
@@ -238,4 +263,12 @@ nav ul li a:hover{
     position: absolute;
     margin-top: 250px;
     
+}
+
+/*footer*/
+footer{
+max-width: 12000px;
+width: 100%;
+height: 200px;
+margin-top: 200px;
 }
