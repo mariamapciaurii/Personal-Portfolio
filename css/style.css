@@ -27,9 +27,9 @@ body{
 }
 .container ul li a {
     color: black;
-    font-size: 15px;
+    font-size: 20px;
     transition: .5s;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Architects Daughter', cursive;
 }
 nav ul li a:hover{
     color: orangered;
@@ -37,7 +37,7 @@ nav ul li a:hover{
 }
 .icon{
     width: 62px;
-    margin-right: 400px;
+    margin-right: 520px;
     border-radius: 2ex;
     margin-left: 30px;
     transition:.5s;
@@ -62,10 +62,12 @@ nav ul li a:hover{
 .helo-div h1 {
     font-size: 30px;
     margin-bottom: 20px;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Architects Daughter', cursive;
+    
 }
 .helo-div p {
     font-size: 20px;
+    font-family: 'Roboto', sans-serif;
 }
 .btn{
     border: 1px solid #3F3D56 ;
@@ -76,8 +78,11 @@ nav ul li a:hover{
     border-radius: 2ex;
     background-color:#3F3D56;
     color:#fff;
+    font-family: 'Architects Daughter', cursive;
+    font-size: 20px;
 
 }
+
 .image1{
     width: 920px;
     display: inline-block;
@@ -131,13 +136,16 @@ nav ul li a:hover{
     width: 430px;
     height: 92px;
     font-size: 18px;
-
+    font-family: 'Roboto', sans-serif;
     
 }
 .pp{
     font-size: 20px;
     margin-bottom: 23px;
+    font-family: 'Architects Daughter', cursive;
+
 }
+
 .aboutflower1{
     width: 200px;
     margin-left: -240px;
@@ -159,7 +167,7 @@ nav ul li a:hover{
     width: 500px;
     height: 150px;
     margin-right: 133px;
-   
+    font-family: 'Roboto', sans-serif;
 }
 
 /* start about.html third section*/
@@ -190,6 +198,7 @@ nav ul li a:hover{
 }
 .work h1 {
     font-size: 30px;
+    font-family: 'Architects Daughter', cursive;
 }
 /*start newprojectsection*/
 .newproject{
@@ -203,6 +212,7 @@ nav ul li a:hover{
     height: 90px;
     font-size: 34px;
     margin-top: 10%;
+    font-family: 'Architects Daughter', cursive;
 }
 .newproject button {
     border: 1px solid #3F3D56 ;
@@ -213,6 +223,7 @@ nav ul li a:hover{
     border-radius: 3ex;
     background-color:#3F3D56;
     color:#fff;
+    font-family: 'Architects Daughter', cursive;
 
 }
 .projectimage{
